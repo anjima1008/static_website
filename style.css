@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main {
+    background-image: url('https://static.nationalgeographic.co.uk/files/styles/image_3200/public/croppedgettyimages-1396812211.jpg?w=1600&h=900');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.navbar {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 300px;
+
+}
+
+.logo h3 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo h3 span {
+    color: darkorange;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+
+}
+
+ul {
+    margin: 40px 30px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size:20px;
+
+}
+
+.right-content {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    word-spacing: 1.34rem;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.right-content  #heading{
+   font-family: 'Satisfy',cursive;
+    font-family: italic;
+}
+  
+.enquiry {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    color: white;
+    background: #14a44d;
+    padding: 10px;
+    font-size: 16px;
+    border:none;
+}
+
+.booking-card {
+    margin: 2% 4%;
+    text-align: center;
+}
+.booking-card h1{
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    font-size:40px;
+    
+}
+
+.cardlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.card {
+    width: 400px;
+    padding: 30px;
+    border: 0.5px solid #b8b4b4;
+
+}
+
+.card h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    
+}
+
+.card h5 {
+    font-size: 25px;
+    color: red;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    
+}
+
+.card-content {
+    text-align: justify;
+    font-size: 24px;
+    color: #1c16169f;
+    padding:20px;
+    word-spacing: 1.2;
+    font-family: "Poppins", sans-serif;
+    line-height: 2rem;
+}
+
+.card-img {
+    width: 300px;
+    height: 210px;
+    background-position: center;
+}
+
+#book-btn {
+    background: #007bff;
+
+    margin-top: 15px;
+
+}
+
+#package-btn {
+    border-radius: 20px;
+    background: blue;
+    padding: 10px 20px;
+}
+.special-tours{
+    background: #eee;
+    padding:1% 2%;
+}
+.special-tours h1{
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    font-size:40px; text-align: center;
+}
+.banner {
+    max-width: 100%;
+    margin-top: 1%;
+    background-image: url('./images/boatrace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    display: grid;
+   
+
+    
+}
+
+
+.banner h1 {
+
+    color: blue;
+    text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px; font-family: "Poppins", sans-serif;
+}
+
+.banner p {
+    color: white;
+    text-align: center;margin-bottom: 15px;
+    font-size: 18px;
+ font-family: "Poppins", sans-serif;
+}
+#view-btn {
+    color: black;
+    background: #17a2b8;
+    justify-self: center;
+}
+
+.gallery {
+    margin: 2% 4%;
+    display: flex;
+    gap:0.5px;
+    padding:1%;
+     
+}
+
+.images {
+   max-width: 800px;
+    height: 480px;
+    margin-left: 4%;
+
+    
+}
+
+.north-tours {
+    margin: 1% 4%;
+}
+
+.north-tours h1 {
+  
+        font-family: "Poppins", sans-serif;
+        font-weight:normal;
+        font-size:40px;
+        text-align: center;
+
+}
+.tourlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    gap:2rem;
+}
+
+.tour-card {
+    width: 350px;
+   padding:20px 30px;
+    border: 0.5px solid #b8b4b4;
+    border-radius: 10px;
+}
+
+.division{
+    background:#b8b4b4;
+    height:1px;
+    width:90%;
+    margin: 1% 4%;
+    
+}
+.features h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    font-size:40px;
+}
+.features p{
+    text-align:center;
+    color:palevioletred;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: italic;
+    margin-top:10px;
+    margin-bottom: 16px;
+    font-size:20px;
+}
+
+    .feature {
+        width: 230px;
+        padding: 24px 24px;
+        height: 300px;
+        border: 1px solid #b8b4b4;
+       background: #eee;
+        border-radius: 20px;
+        margin:2%;;
+    }
+
+.feature h4{
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    font-size:25px;
+    margin-top:10px;
+
+    text-align: center;
+}
+.feature h5{
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+    font-size:20px;
+    margin-top:10px;
+    color:blueviolet;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.feature-img {
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    padding:10px;
+    display:grid;
+    justify-content: center;
+}
+
+.feature-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.review{
+    background: #eee;   height:70vh;
+    
+}
+.review h4{
+  
+        font-family: "Satisfy", sans-serif;
+        font-weight:normal;
+        font-style: italic;
+        font-size:25px;
+        margin-top:2px;
+        color:blueviolet;
+        text-align: center;
+     
+}
+.review-icon{
+    margin:0 auto;
+    width:100px;
+    height:100px;
+}
+.testimonial-container {
+    margin: 1% 4%;
+    display: flex;
+   gap: 6rem;
+    justify-content: space-between;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-plan {
+    max-width: 450px;
+    height: 250px;
+    flex: 1;
+    padding: 2rem;
+   
+    border-radius: 5px;
+    text-align: center;
+}
+.testimonial-title{
+    width:500px;
+    margin:auto;
+}
+.rating {
+	width: 493px;
+	height: 69px;
+	text-align: center;
+}
+.rating img {
+	width: 262px;
+	height: 50px;
+}
+.rating h4{
+    font-family: "Poppins",sans-serif;
+    color:black;
+    font-style: normal;
+}
+.testimonial-price{
+    
+    text-align: justify;
+    font-size:20px;
+    font-family: "Poppins",sans-serif;
+    padding: 2rem;
+}
+
+#footer {
+    background: darkblue;
+   
+    color: white;
+   
+
+
+}
+
+.footer-row {
+    display: flex;
+    padding: 4rem;
+    gap:4rem;
+    align-items: center;
+  
+ 
+    color: white;
+}
+
+.icon-set {
+    display: flex;
+    margin-top: 2px;
+
+}
+.icon-set h3{
+    text-align: center;
+    color: darkorange;
+    margin-top:10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*   margin: 0px 10px; */
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.icon i {
+    font-size: 24px;
+    color: white;
+
+}
+
+.footer-link {
+    width: 30%;
+    text-align: left;
+    font-size: 20px;
+}
+.footer-link h3{
+    text-align: center;
+    color: darkorange;
+    margin-top:10px;
+}
+
+.footer-link ul li {
+    list-style: none;
+    padding: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.footer-link a {
+    text-decoration: none;
+
+    font-weight: 400;
+    color: white;
+}
+.footer-img{
+    margin:2% 8%;
+    padding:2%;
+    width:400px;
+}
+.footer-img h5{
+    color:white;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+#footer h4{
+    color:white;
+    font-weight: normal;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 20px;;
+}

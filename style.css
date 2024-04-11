@@ -5,14 +5,14 @@
 }
 
 .main {
-    background-image: url('https://static.nationalgeographic.co.uk/files/styles/image_3200/public/croppedgettyimages-1396812211.jpg?w=1600&h=900');
+    background-image: url('./images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     height: 90vh;
     width: 100%;
 }
-
+/* https://i.natgeofe.com/n/fba4cbb4-6a7f-4a4d-9e32-9f691cef8856/higts_southafrica_8502902-Edit_HR_3x2.jpg?w=2880&h=1920' */
 .navbar {
     width: 95%;
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 .logo h3 span {
-    color: darkorange;
+    color: deepskyblue;
     font-size: 50px;
     font-weight: normal;
     font-family: "Poppins", sans-serif;
@@ -100,17 +100,19 @@ button {
     justify-content: center;
     align-items: center;
     margin: 4rem;
+    padding:1rem;
 }
 
 .card {
-    width: 400px;
+    width:300px;
+    height:70vh;
     padding: 30px;
     border: 0.5px solid #b8b4b4;
 
 }
 
 .card h4 {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -120,7 +122,7 @@ button {
 }
 
 .card h5 {
-    font-size: 25px;
+    font-size: 18px;
     color: red;
     margin-bottom: 10px;
     font-family: "Poppins", sans-serif;
@@ -130,19 +132,15 @@ button {
 
 .card-content {
     text-align: justify;
-    font-size: 24px;
+    font-size: 20px;
     color: #1c16169f;
-    padding:20px;
-    word-spacing: 1.2;
+    padding:10px;
+   
     font-family: "Poppins", sans-serif;
-    line-height: 2rem;
+    
 }
 
-.card-img {
-    width: 300px;
-    height: 210px;
-    background-position: center;
-}
+
 
 #book-btn {
     background: #007bff;
@@ -173,9 +171,6 @@ button {
     background-size: cover;
     padding: 8%;
     display: grid;
-   
-
-    
 }
 
 
@@ -192,7 +187,7 @@ button {
 .banner p {
     color: white;
     text-align: center;margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
  font-family: "Poppins", sans-serif;
 }
 #view-btn {
@@ -210,11 +205,9 @@ button {
 }
 
 .images {
-   max-width: 800px;
-    height: 480px;
-    margin-left: 4%;
-
-    
+   width:100%;
+    height: 40vh;
+    margin-left: 4%;   
 }
 
 .north-tours {
